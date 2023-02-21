@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+   list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(../font/Poppins-BoldItalic.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../font/Poppins-Medium.ttf);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header, main .innerfooter{
+    width: 1270px;
+    margin: 44px auto;
+    font-size: 20px;
+     font-family: Poppins-SemiBold;
+
+}
+p{
+    color: #777767;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+}
+h1{
+    font-size: 20px;
+}
+h1 a{
+     color: #000000;
+}
+header ul {
+    width: 560px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header ul a{
+    color: #000000;
+    padding: 5px 8px;
+    position: relative;
+
+}
+header ul a.active::before{
+    content: "";
+    width: 5px ;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: 2.5px;
+}
+header span{
+    font-size: 34px;
+}
+.button a{
+    padding: 16px 36px;
+    background-color: #FDC72D;
+   text-align: center;
+   color: #000000;
+   border-radius: 60px;
+}
+main h2{
+    font-size: 60px;
+}
+.deliveryimg{
+    width: 800px;
+}
+.deliveryimg img{
+    width: 100%;
+}
+.deliverytext{
+    width: 500px;
+}
+.deliverytext p.deliveryinfo{
+    width: 394px;
+    margin-top: 36px;
+    margin-bottom: 52px;
+}
+
+/* about style*/
+
+.about{
+    flex-wrap: wrap;
+}
+.about .deliveryimg{
+    width: 676px;
+}
+.about h2{
+    font-size: 40px;
+}
+
+.about .deliveryimg, .about .deliverytext{
+margin-bottom: 214px;
+}
+
+/*service*/
+
+.service h2{
+    text-align: center;
+    font-size: 40px;
+}
+.service article {
+    width: 360px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 0 10px #777767;
+}
+.articleimg{
+    width: 152p;
+    height: 142px;
+    margin: 32px 0;
+    overflow: hidden;
+}
+.articleimg img{
+    width: 100%;
+}
+.service article h3{
+    font-size: 20px;
+    font-family: Poppins-SemiBold;
+}
+
+.statiatext{
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+.learnmore a{
+    font-size: 15px;
+    font-family: Poppins-SemiBold;
+    color: #000000;
+}
+
+.articlecontainer{
+    margin-top: 88px;
+    margin-bottom: 158px;
+}
+.deliveryimgservice{
+    width: 540px;
+}
+.deliveryinfocontainer h2{
+    text-align: left;
+    font-size: 40px;
+    font-family: Poppins-Medium;
+}
+.deliveryinfocontainer .deliverytext{
+    width: 510px;
+}
+.deliveryinfocontainer .deliverytext p{
+    font-size: 20px;
+}
+.app{
+    width: 450px;
+}
+.deliverytext .deliverytext p.deliveryinfo{
+    width: 510px;
+}
+.deliveryinfocontainer{
+    margin-bottom: 144px;
+}
+
+
+/*contact*/
+
+.contact{
+    margin-top: 140px;
+}
+.contact section{
+    width: 506px;
+}
+.contact h2{
+    font-size: 40px;
+    font-family: Poppins-SemiBold;
+    margin-bottom: 30px;
+}
+.contact section p{
+    margin-top: 30px;
+}
+.contactinfo{
+    width: 280px;
+}
+.contact p{
+    font-family: Poppins-SemiBold;
+    margin-bottom: 20px;
+}
+.contactinfo p span{
+    color: #000000;
+}
+
+/*foorer style*/
+
+footer{
+    background-color: #FEE395;
+    padding: 94px 210px 50px 112px;
+}
+
+footer section{
+    width: 184px;
+    align-items: flex-start;
+    margin: auto;
+}
+.right{
+    text-align: center;
+    margin-top: 122px;
+}
+.innerfooter  ul a {
+    color: #777767;
+    font-size: 15px;
+}
